@@ -32,9 +32,3 @@ def rgb(r, g, b):
     else: b = '0' + str(hex(b).split('x')[-1]).upper()
 
     return (r+g+b)
-
-print(rgb(0,0,0))
-print(rgb(1,2,3))
-print(rgb(255,255,255))
-print(rgb(-20,255,255))
-print(rgb(456,255,255))
